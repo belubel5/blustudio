@@ -1,0 +1,173 @@
+.servicios {
+    .servicios__servicio {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .servicio__imagen {
+        width: 100%;
+        height: 100%;
+    }
+
+    .servicio__imagen {
+        width: 300px;
+        height: 170px;
+    }
+
+    .servicio__imagen{
+        width: 300px;
+        height: 170px;
+    }
+
+}
+
+.servicios__titulo {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.servicio1 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    }
+}
+
+.servicio2 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    } 
+}
+
+.servicio3 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    }
+}
+
+.servicio4 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    }
+}
+
+
+.servicio5 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    }
+}
+
+.servicio6 {
+    width: 100%; height: 100%;
+    transition: all 0.5s;
+
+    &:hover {
+        height: 110%; 
+        font-weight: bold;
+    }
+}
+
+.grid-container__about {
+    display: grid;
+    height: 430px;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    div {
+        display: grid;
+        color: black;
+    }
+}
+
+
+.opiniones {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: 14px;
+    align-content: center;
+    
+    .cliente {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &_foto{
+        width: 15%;
+        } 
+}
+
+/* .opiniones .comilla {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+} */
+
+
+.marca_opinion {
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.opinion1 {
+    background-color:#F9F6F5;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5%;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.opinion2 {
+    background-color: #F9F6F5;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5%;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.opinion3 {
+    background-color:#F9F6F5;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5%;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel=StyleSheet href="../css/style.css" type="text/css" media=screen>
+    <link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ -->
+
+</head>
+<title>Blu Design | Agencia Marketing</title>
+
+
+<body>
+    <header>
+        <nav class="topnav" id="topnav">
+            <div class="topnav__titulo">
+                <h2>Blu Studio</h2>
+            </div>
+
+            <div class="links" id="links">
+                <a href="./contact.html" class="active">Contact</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./services.html">Services</a>
+                <a href="./aboutme.html">About</a>
+                <a href="../index.html">Home</a>
+            </div>
+            <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- <div class="contacto__principal" align="center">
+        <h1>¡Trabajemos juntos!</h1>
+        <p>Trabajemos juntos y hagamos de tu marca, una marca increíble.</p>
+        <input class="contacto__nombre" placeholder="Nombre y Apellido">
+        <input class="contacto__email" placeholder="Email">
+        <input class="contacto__telefono" placeholder="Número de teléfono">
+        <textarea class="contacto__motivo" id="exampleFormControlTextarea1" rows="3" placeholder="¿Cuál es tu emprendimiento o marca y qué necesitas?"></textarea>
+        <button class="contacto__enviar">Enviar</button>
+    </div> -->
+
+    <!-- <form action="#" class="col-md-6 offset-md-3 contact-form"> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12" align="center">
+                <h1>Contactate con nosotros!</h1>
+            </div>
+
+            <div class="form-group col-12">
+                <label for="nombre">Nombre:</label>
+                <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese nombre" name="nombre">
+            </div>
+
+            <div class="form-group col-12">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+            </div>
+
+            <div class="form-group col-12">
+                <label for="telefono">telefono:</label>
+                <input type="telefono" class="form-control" id="telefono" placeholder="Ingrese telefono" name="telefono">
+            </div>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Mensaje Enviado</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Gracias por contactarse con nosotros!
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row ms-2">
+            <button type="button" class="btn btn-primary" id="myBtn">
+                Enviar
+            </button>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#myBtn").click(function() {
+                $("#myModal").modal();
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

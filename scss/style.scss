@@ -1,0 +1,146 @@
+@import '_variables';
+@import 'colores';
+@import 'home';
+@import 'general';
+@import 'servicios';
+@import 'contacto';
+
+*{
+    font-family: $font-general;
+}
+
+/*lo que falta pasar a sass */
+
+ 
+
+.grid-container{
+    display: grid;
+    height: 600px;
+    background-color: $white;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.grid-container div {
+    display: grid;
+    background-color: #F9F6F5;
+    text-align: center;
+    color: black;
+}
+
+
+.fotoabout {
+    grid-column: 1 / 2;
+    height: 20%;
+    justify-content: center;
+    position: left 30%;
+}
+
+.textoabout {
+    grid-column: 2 / 4;
+    padding-right: 25%;
+    margin-left: 5%;
+}
+.sobremi {
+    background-color: #F2E1EE;
+    overflow: hidden;
+}
+
+.sobremi__texto {
+    text-align: left;
+    padding-left: 10%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.sobremi__texto_frase {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    padding-left: 10%;
+}
+
+
+.sobremi__titulo {
+    padding-left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+
+}
+.sobremi__img {
+    /* margin-left: 255px;
+    margin-top: 200px;
+    width: 430px;
+    height: 430px;
+    float: left; */
+    margin-left: 50%;
+    width: 60%;
+}
+.footer {
+    color: black;
+    background-image: linear-gradient(to left, #F8F4F0 , white);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+}
+.footer_titulo {
+    font-size: 20px; 
+    font-weight: bold;
+}
+.footer p {
+    font-size: 10px;
+    color:black
+}
+
+.portfolio-flex {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;  
+ }
+ 
+ .trabajo_imagen {
+     width: 40%;
+ }
+
+
+ .trabajo1 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+
+ .trabajo2 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+ .trabajo3 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+
+ .trabajo4 {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    height: 10%;
+    align-content: center; 
+ }
+
+
+
+.contact-form {
+    margin-top: 70px;
+    border: 1px solid;
+    padding: 40px;
+}
