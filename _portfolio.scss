@@ -1,0 +1,69 @@
+.portfolio_cabecera {
+        background-color: #FAF0ED;
+        color: black;
+        height: 524px;
+        width: 100%;
+        text-align: center;
+
+        h1 {
+            display: block;
+            font-size: 30px;
+            font-weight: normal;
+            font-family: 'Tenor Sans', sans-serif;
+            margin-block-start: 0px;
+            /*esto lo tuve q poner porque me hacia un margen propio del h1 que no queria*/
+            margin-block-end: 0px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-top: 10%;
+        }
+
+}
+
+.portfolio__bajada {
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: $font-titulo;
+}
+
+.portfolio-flex {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;  
+ }
+ 
+ .trabajo_imagen {
+     width: 40%;
+ }
+
+ .trabajo1 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+
+ .trabajo2 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+ .trabajo3 {
+    padding-top: 10%;
+    height: 10%;
+     align-content: center; 
+ }
+
+ .trabajo4 {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    height: 10%;
+    align-content: center; 
+ }
