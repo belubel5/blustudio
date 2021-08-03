@@ -43,27 +43,6 @@
 
 }
 
-
-    .presentacion {
-        padding-top: 10%;
-
-        .presentacion__titulo {
-            font-family: $font-titulo;
-            font-weight: normal;
-            text-align: center;
-    }
-
-    .presentacion__parrafo {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        padding-left: 25%;
-        padding-right: 25%;
-        text-align: center;
-    }
-
-}
-
-
 @keyframes aparecer {
     0% {
       opacity: 0;

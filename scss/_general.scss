@@ -42,7 +42,6 @@ body {
         font-weight: 600;
     }
 }
-    
 
 .links {
     float: right;
@@ -51,19 +50,57 @@ body {
     font-weight: 600;
 }
 
+// para pantallas iguales o mas chicas que 600 px
 @media screen and (max-width: 600px) {
-    .topnav.responsive {
+    .topnav {
         position: relative;
+        width: 100%;
+        background-color: $colorfondo;
     }
-    .topnav.responsive .icon {
+    .topnav .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .topnav.responsive a {
+    .topnav a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: center;
+        font-size: 16px;
     }
+
+    .links {
+        float: right;
+        padding-right: 200px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    .topnav h2 {
+        float: center;
+        padding-left: 0px;
+    }
+
+    .topnav__titulo h2 {
+        padding-left: 0px;
+        align-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 57px;
+    bottom: 72px;
+    right: 10px;
+    background-color: #01B32B;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 34px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 6;
 }
     

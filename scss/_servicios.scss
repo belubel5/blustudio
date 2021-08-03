@@ -1,174 +1,94 @@
-.servicios {
-    .servicios__servicio {
-        margin: 20px;
+.presentacion {
+    padding-top: 10%;
+
+    .presentacion__titulo {
+        font-family: $font-titulo;
+        font-weight: normal;
         text-align: center;
-    }
-
-    .servicio__imagen {
-        width: 100%;
-        height: 100%;
-    }
-
-    .servicio__imagen{
-        width: 300px;
-        height: 170px;
-    }
 }
 
-.servicios__titulo {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: normal;
-    font-size: 30px;
+.presentacion__parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 25%;
+    padding-right: 25%;
     text-align: center;
-    margin-top: 10%;
-}
-
-.servicio1 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
     }
 }
 
-.servicio2 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    } 
-}
-
-.servicio3 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-    .servicio4 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-
-    .servicio5 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-    .servicio6 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-.servicios__titulo {
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: normal;
-    font-size: 30px;
+.container{
+    margin: auto;
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider {
+    position: relative;
+    height: 150px;
     text-align: center;
-    margin-top: 10%;
+    padding-inline-start: 0px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background: white;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+  }
+  
+  /*Muestro el primer <li>*/
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+
+  /*Muestro el <li> del enlace que marco*/
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menuslide{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menuslide li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menuslide li a {
+        display: inline-block;
+        color: #C4C4C4;
+        text-decoration: none;
+        background-color: #C4C4C4;
+        width: 10px;
+        height: 10px;
+        font-size: 5px;
+        border-radius: 100%;
+
+        &:hover {
+            color: rgb(73, 73, 73);
+            background-color: rgb(73, 73, 73);
+        }
 }
 
-.servicio1 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-.servicio2 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    } 
-}
-
-.servicio3 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-    .servicio4 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-    .servicio5 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-    .servicio6 {
-    width: 100%; height: 100%;
-    transition: all 0.5s;
-
-    &:hover {
-        height: 110%; 
-        font-weight: bold;
-    }
-}
-
-.opiniones {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    background-color: rgb(255, 255, 255);
-    font-size: 14px;
-    align-content: center;
-    
-    .cliente {
-        font-size: 12px;
-        font-weight: bold;
-    }
-
-    &_foto{
-        width: 15%;
-        } 
+  .cliente {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .marca_opinion {
@@ -176,3 +96,85 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(255, 255, 255);
+    grid-template-rows: auto auto auto;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.grid-container .cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: black;
+    margin-top: 40%;
+}
+
+.grid-container p {
+    font-size: 15px;
+    font-weight: normal;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.servicio__imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicios__titulo {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.servicio1 {
+    width: 100%; 
+    height: 100%;
+    transition: all 0.5s;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.servicio1:hover {
+    height: 110%; 
+    font-weight: bold;
+}
+
+.servicio2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%; 
+    height: 100%;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.servicio2:hover {
+    height: 110%; 
+    font-weight: bold;
+}
+
+.servicio3 {
+    width: 100%; 
+    height: 100%;
+    transition: all 0.5s;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.servicio3:hover {
+    height: 110%; 
+    font-weight: bold;
+}
+
