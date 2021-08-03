@@ -31,21 +31,6 @@
     overflow: hidden;
 }
 
-.sobremi__texto {
-    text-align: left;
-    padding-left: 10%;
-    text-align: left;
-    font-size: 25px;
-}
-
-.sobremi__texto_frase {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:lighter;
-    padding-left: 10%;
-}
-
-
 .sobremi__titulo {
     padding-left: 10%;
     font-size: 40px;
@@ -53,6 +38,22 @@
     font-family: 'Tenor Sans', sans-serif;
 
 }
+
+.sobremi__texto_frase {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:initial;
+    padding-left: 10%;
+}
+
+.sobremi__texto {
+    text-align: left;
+    padding-left: 10%;
+    text-align: left;
+    font-size: 16px;
+}
+
+
 .sobremi__img {
     /* margin-left: 255px;
     margin-top: 200px;
@@ -62,4 +63,5 @@
     margin-left: 50%;
     width: 60%;
 }
+
 

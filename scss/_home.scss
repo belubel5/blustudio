@@ -9,14 +9,14 @@
         display: block;
         text-align: center;
         font-size: 50px;
-        font-weight: bold;
+        font-weight: normal;
         font-family: $font-titulo;
         margin-block-start: 0px;
         /*esto lo tuve q poner porque me hacia un margen propio del h1 que no queria*/
         margin-block-end: 0px;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        padding-top: 10%;
+        padding-top: 2%;
         animation-duration: 2s;
         animation-name: aparecer;
         animation-iteration-count: infinite; 
@@ -28,7 +28,7 @@
         font-family: $font-titulo;
         font-size: 11px;
         font-weight: normal;
-        padding-top: 0px;
+        padding-top: 9%;
         text-align: center;
     }
 
@@ -39,8 +39,13 @@
 
     &:hover {
         background-image: url(../img/home2.png)
-    }
 
+    }
+}
+
+h2 p {
+    font-family: $font-titulo;
+    font-weight: 600;
 }
 
 @keyframes aparecer {
