@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel=StyleSheet href="../css/style.css" type="text/css" media=screen>
@@ -14,18 +17,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Somos una agencia de marketing que se dedica a servicios de diseño gráfico, marketing digital, creación de páginas weby redes sociales/>
     <meta name="keywords"  content="Diseño grafico, redes sociales, marketing digital, paginas web, servicios para redes sociales">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- -->
-
 </head>
-<title>Blu Design | Agencia Marketing</title>
+<title>Agencia Bandez | Diseño y marketing </title>
 
 
 <body>
     <header>
         <nav class="topnav" id="topnav">
             <div class="topnav__titulo">
-                <h2>Blu Studio</h2>
+                <h2>Agencia Bandez</h2>
             </div>
 
             <div class="links" id="links">
@@ -40,84 +40,51 @@
         </nav>
     </header>
 
-    <!-- <div class="contacto__principal" align="center">
-        <h1>¡Trabajemos juntos!</h1>
-        <p>Trabajemos juntos y hagamos de tu marca, una marca increíble.</p>
-        <input class="contacto__nombre" placeholder="Nombre y Apellido">
-        <input class="contacto__email" placeholder="Email">
-        <input class="contacto__telefono" placeholder="Número de teléfono">
-        <textarea class="contacto__motivo" id="exampleFormControlTextarea1" rows="3" placeholder="¿Cuál es tu emprendimiento o marca y qué necesitas?"></textarea>
-        <button class="contacto__enviar">Enviar</button>
-    </div> -->
-
-    <!-- <form action="#" class="col-md-6 offset-md-3 contact-form"> -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12" align="center">
-                <h1>Contactate con nosotros!</h1>
+    <section class="contact-box">
+        <div class="row no-gutters bg-dark">
+            <div class="col-xl-5 col-lg-12 register-bg">
+             <div class="tituloform">
+                 <h3 class="tituloform1">¡Trabajemos juntos!</h3>
+             </div>
             </div>
-
-            <div class="form-group col-12">
-                <label for="nombre">Nombre:</label>
-                <input type="nombre" class="form-control" id="nombre" placeholder="Ingrese nombre" name="nombre">
+            <div class="col-xl-7 col-lg-12 d-flex">
+                 <div class="container align-self-center p-6">
+                     <h1 class="tituloformulario">Contáctanos</h1>
+                     <p class="text-muted mb-5">Completa la siguiente información, y pronto nos pondremos en contacto contigo.</p>
+ 
+                     <form>
+                         <div class="form-row mb-2">
+                             <div class="form-group col-md-6">
+                                 <label class="font-weight-bold">Nombre <span class="text-danger">*</span></label>
+                                 <input type="text" class="form-control" placeholder="Nombre y apellido">
+                             </div>
+                             <div class="form-group col-md-6">
+                                 <label class="font-weight-bold">País de residencia <span class="text-danger">*</span></label>
+                                 <input type="text" class="form-control" placeholder="¿De dónde eres?">
+                             </div>
+                             <div class="form-group mb-3">
+                                <label class="font-weight-bold">Correo electrónico <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" placeholder="Correo electrónico">
+                            </div>
+                         </div>
+                         <div class="form-group mb-3">
+                             <label class="font-weight-bold">Servicio que deseas <span class="text-danger">*</span></label>
+                             <input type="email" class="form-control" placeholder="¿Qué marca tienes? ¿Qué necesitas?">
+                         </div>
+                         <div class="form-group mb-5">
+                             <div class="form-check">
+                                 <input class="form-check-input" type="checkbox">
+                                 <label class="form-check-label text-muted">¡Selecciona esta casilla si haz llegado a nosotros por alguna recomendación!</label>
+                             </div>
+                         </div>
+                         <button class="btn btn-primary width-100">Enviar</button>
+                     </form>
+                     <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2021 Agencia Bandez</small>
+                 </div>
             </div>
-
-            <div class="form-group col-12">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
-            </div>
-
-            <div class="form-group col-12">
-                <label for="telefono">telefono:</label>
-                <input type="telefono" class="form-control" id="telefono" placeholder="Ingrese telefono" name="telefono">
-            </div>
-
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Mensaje Enviado</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            Gracias por contactarse con nosotros!
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
+    </section>
 
-        <div class="row ms-2">
-            <button type="button" class="btn btn-primary" id="myBtn">
-                Enviar
-            </button>
-        </div>
-
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $("#myBtn").click(function() {
-                $("#myModal").modal();
-            });
-        });
-    </script>
 
 <a href="https://api.whatsapp.com/send?phone=5491164602788" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
