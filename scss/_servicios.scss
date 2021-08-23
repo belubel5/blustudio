@@ -56,6 +56,7 @@
   /*Muestro el <li> del enlace que marco*/
   ul.slider li:target {
       opacity: 1; 
+      width: 100%;
   }
   
   .menuslide{
@@ -191,6 +192,11 @@
     height: 110%; 
     font-weight: bold;
 }
+
+.footer_servicios {
+    position: inherit !important;
+}
+
 
 @media screen and (max-width: 900px) {
     .servicio1 {

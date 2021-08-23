@@ -1,9 +1,11 @@
 .portfolio_cabecera {
         background-color: #FAF0ED;
         color: black;
-        height: 524px;
+        position: fixed !important;
         width: 100%;
         text-align: center;
+        left: 0;
+        bottom: 0;
 
         h1 {
             display: block;

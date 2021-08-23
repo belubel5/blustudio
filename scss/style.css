@@ -110,7 +110,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          z-index:10
 }
 
 .cabecera {
@@ -256,6 +255,7 @@ ul.slider li:first-child {
 /*Muestro el <li> del enlace que marco*/
 ul.slider li:target {
   opacity: 1;
+  width: 100%;
 }
 
 .menuslide {
@@ -415,6 +415,10 @@ ul.slider li:target {
 .servicio3:hover {
   height: 110%;
   font-weight: bold;
+}
+
+.footer_servicios {
+  position: inherit !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -610,16 +614,18 @@ ul.slider li:target {
     width: 430px;
     height: 430px;
     float: left; */
-  /* margin-left: 50%; */
+  margin-left: 50%;
   width: 100%;
 }
 
 .portfolio_cabecera {
   background-color: #FAF0ED;
   color: black;
-  height: 524px;
+  position: fixed !important;
   width: 100%;
   text-align: center;
+  left: 0;
+  bottom: 0;
 }
 
 .portfolio_cabecera h1 {
@@ -728,9 +734,7 @@ ul.slider li:target {
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  height: 150px;
 }
 
 @media screen and (max-width: 600px) {
@@ -738,17 +742,12 @@ ul.slider li:target {
     width: 100%;
     height: 90px;
     position: inherit;
-
   }
-
   .sobremi__img {
     margin-left: 20%;
     width: 60%;
   }
-
 }
-
-
 
 .footer_titulo {
   font-size: 20px;
@@ -766,7 +765,3 @@ ul.slider li:target {
   padding: 40px;
 }
 /*# sourceMappingURL=style.css.map */
-
-.footer_servicios {
-  position: inherit !important;
-}
